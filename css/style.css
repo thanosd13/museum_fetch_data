@@ -1,0 +1,64 @@
+body {
+    font-family: ui-monospace;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 1rem;
+    padding-bottom: 8rem;
+}
+
+h2 {
+    text-align: center;
+    color: gray;
+}
+
+.data {
+    padding: 3rem;
+    display: flex; /* Ensures that the flex items (columns) are aligned in a row */
+    justify-content: space-between; /* This will place space equally between the columns */
+
+}
+
+.data-col {
+    padding: 1rem;
+    border: 2px solid #91c8e1;
+    border-radius: 0.5rem;
+    flex: 1;
+    margin: 0 1rem;
+
+}
+
+.data-col p{
+    padding: 2rem;
+}
+
+ul {
+    padding-top: 3rem;
+}
+
+li {
+    padding-top: 1rem;
+}
+
+#artworksList li {
+    list-style-type: decimal;
+}
+
+button {
+    border: none;
+    padding: 0.5rem;
+    color: white;
+    background-color: #91c8e1;
+    border-radius: 5px !important;
+}
+
+button:hover {
+    background-color: #73aac4;
+}
+
+img {
+    width: 20% !important;
+    height: 20vh !important;
+}
